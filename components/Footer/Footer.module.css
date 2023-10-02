@@ -1,0 +1,18 @@
+.footer {
+  display: grid;
+  grid-template-columns: 3, auto;
+  grid-template-areas: 'one two three';
+  gap: 40px;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+  justify-self: end;
+}
+.three {
+  grid-area: three;
+  justify-self: end;
+}
