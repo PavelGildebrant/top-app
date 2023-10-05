@@ -1,4 +1,6 @@
 .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: auto 230px minmax(320px, 1200px) auto;
   grid-template-rows: auto 1fr auto;
@@ -7,6 +9,8 @@
     '. sideBar main .'
     'footer footer footer footer';
   min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .header {
   grid-area: header;

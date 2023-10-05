@@ -1,9 +1,10 @@
-import '.././globals.css';
-import styles from './layout.module.css';
+import './globals.css';
+
+import styles from '@/components/LayoutComponents/Layout.module.css';
 import type { Metadata } from 'next';
-import SideBar from '@/components/SideBar/SideBar';
-import Header from '@/components/Header/Header';
-import Footer from '@/components/Footer/Footer';
+import SideBar from '@/components/LayoutComponents/SideBar/SideBar';
+import Header from '@/components/LayoutComponents/Header/Header';
+import Footer from '@/components/LayoutComponents/Footer/Footer';
 import { Noto_Sans } from 'next/font/google';
 import cn from 'classnames';
 
